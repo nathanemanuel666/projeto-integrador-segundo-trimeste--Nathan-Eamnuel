@@ -1,12 +1,69 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto integrador 2° Trimestre</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
-</html>
+<section class="tech-section">
+<div class="tech-container">
+<div class="tech-header">
+<span class="tech-badge">Programação Web</span>
+<h2>O Triângulo de Ouro da Web</h2>
+<p>Descubra como HTML, CSS e JavaScript trabalham juntos para dar vida a sites e
+aplicativos.</p>
+</div>
+<div class="tech-grid">
+<div class="tech-card html-card">
+<div class="tech-icon">HTML</div>
+<h3>HTML5 &mdash; A Estrutura</h3>
+<p>O esqueleto da aplicação. Organiza textos, imagens, botões e formulários.</p>
+<div class="tech-analogy"><strong>Analogia:</strong> Paredes e estrutura da casa.</div>
+</div>
+<div class="tech-card css-card">
+<div class="tech-icon">CSS</div>
+<h3>CSS3 &mdash; O Design</h3>
+<p>A camada visual. Define cores, fontes, layouts responsivos e efeitos gráficos.</p>
+<div class="tech-analogy"><strong>Analogia:</strong> Pintura, móveis e iluminação.</div>
+</div>
+<div class="tech-card js-card">
+<div class="tech-icon">JS</div>
+<h3>JavaScript &mdash; A Interatividade</h3>
+<p>O cérebro da página. Adiciona lógica, respostas a cliques e dinamismo em tempo real.</p>
+<div class="tech-analogy"><strong>Analogia:</strong> Automação e rede elétrica.</div>
+</div>
+</div>
+</div>
+</section>
+
+2. Estilos CSS Responsivos (estilos-secao.css)
+.tech-section {
+background-color: #0f172a;
+color: #f8fafc;
+padding: 60px 20px;
+}
+.tech-container {
+max-width: 1100px;
+margin: 0 auto;
+}
+.tech-header {
+text-align: center;
+margin-bottom: 40px;
+}
+
+.tech-badge {
+background-color: rgba(56, 189, 248, 0.1);
+color: #38bdf8;
+padding: 6px 14px;
+border-radius: 20px;
+font-size: 0.85rem;
+font-weight: 600;
+border: 1px solid rgba(56, 189, 248, 0.3);
+}
+.tech-grid {
+display: table;
+width: 100%;
+}
+.tech-card {
+background-color: #1e293b;
+border: 1px solid #334155;
+border-radius: 12px;
+padding: 24px;
+margin-bottom: 20px;
+}
+.html-card { border-top: 4px solid #e34f26; }
+.css-card { border-top: 4px solid #1572b6; }
+.js-card { border-top: 4px solid #f7df1e; }
